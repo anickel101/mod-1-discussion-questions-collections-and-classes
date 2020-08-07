@@ -1,12 +1,20 @@
 # begin to build a simple program that models Instagram
 # you should have a User class, a Photo class and a comment class
 
+require_relative "./photo.rb"
+require_relative "./user.rb"
+require_relative "./comment.rb"
+
+
+
+require 'pry'
 
 sandwich_photo = Photo.new
 sophie = User.new("Sophie")
 sandwich_photo.user = sophie
 sandwich_photo.user.name
 # => "Sophie"
+binding.pry
 sophie.photos
 # => [#<Photo:0x00007fae2880b370>]
 

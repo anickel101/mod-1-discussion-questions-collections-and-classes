@@ -1,5 +1,7 @@
 ## QUESTION 1
 
+require 'pry'
+
 pokemon = [
   {
     "id": 1,
@@ -59,6 +61,8 @@ pokemon = [
   ]
 }
 ]
+
+binding.pry
 
 
 # How would you get the url for Bulbasaur's ability?
